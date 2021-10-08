@@ -1,0 +1,23 @@
+#background-container{
+    background-color: rgb(153, 189, 209);
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 2.5px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-auto-rows: 40px;
+}
+
+
+.item{
+    border: 2px solid black;
+    text-align: center;
+    padding: 3px;
+    
+    /* background-color: rgb(117, 159, 238); */
+}
+
+/* .item:hover{
+    background-color: rgb(218, 208, 70);
+} */
